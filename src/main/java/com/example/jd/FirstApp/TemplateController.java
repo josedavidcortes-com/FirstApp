@@ -1,2 +1,13 @@
-package com.example.jd.FirstApp;public class TemplateController {
+package com.example.jd.FirstApp;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TemplateController {
+    @GetMapping("/")
+    public String getPrueba(){
+        return "el tipico hello world!";
+    }
+
 }

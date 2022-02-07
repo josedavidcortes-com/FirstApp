@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TemplateController {
     @GetMapping("/")
     public String getPrueba(){
-        return "el tipico hello world!";
+        return "hello Carmen!";
     }
-
 }

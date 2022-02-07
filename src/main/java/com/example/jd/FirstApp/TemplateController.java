@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TemplateController {
     @GetMapping("/")
     public String getPrueba(){
-        return "hello Carmen!";
+        return "hello Carmen! this is the first web/mobile app";
     }
 }
